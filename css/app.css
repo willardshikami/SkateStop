@@ -291,6 +291,26 @@ nav ul li a:hover {
   ========================================
 */
 
+.sponsors h1 {
+    font-family: 'Varela Round', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sponsors p {
+    font-family: 'Varela Round', cursive;
+    padding: 10px 30px 20px 30px;
+    line-height: normal;
+}
+
+.sponsors h4 {
+    font-family: 'Varela Round', cursive;
+    padding: 10px 30px 20px 30px;
+    font-size: 20px;
+}
+
 .col img {
     width: 100%;
 }
@@ -447,4 +467,27 @@ nav ul li a:hover {
 	}
 }
 
+
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+
+.footer {
+    background: #1a1a1a;
+    color: #fff;
+    font-family: 'Varela Round', cursive;
+}
+
+.footer h4 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
 
