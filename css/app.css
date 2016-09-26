@@ -199,7 +199,17 @@ nav ul li a:hover {
 .shoe-wear {
     background-image: url(../images/shoe.jpg);
     background-size: cover;
-    height: 650px
+    height: 650px;
+}
+
+.shoe-wear h2 {
+    color: #fff;
+    background-color: rgba(89,89,89, 0.8);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 200px 100px;
+    padding: 100px 50px;
 }
 
 .clothing {
@@ -208,10 +218,31 @@ nav ul li a:hover {
     height: 650px;
 }
 
+.clothing h2 {
+    color: #fff;
+    background-color: rgba(89,89,89, 0.8);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 200px 100px;
+    padding: 100px 0px;
+}
+
+
 .boards {
     background-image: url(../images/boards.jpg);
     background-size: cover;
     height: 650px;
+}
+
+.boards h2 {
+    color: #fff;
+    background-color: rgba(89,89,89, 0.8);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 200px 100px;
+    padding: 100px 0px;
 }
 
 
