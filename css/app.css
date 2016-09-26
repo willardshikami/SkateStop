@@ -182,6 +182,77 @@ nav ul li a:hover {
 	}
 }
 
+
+/*
+  ========================================
+  STREET WEAR SECTION
+  ========================================
+*/
+.wear h1 {
+    font-family: 'Varela Round', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.shoe-wear {
+    background-image: url(../images/shoe.jpg);
+    background-size: cover;
+    height: 650px
+}
+
+.clothing {
+    background-image: url(../images/clothing.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+.boards {
+    background-image: url(../images/boards.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+
+/*
+  ========================================
+  GRID OF THREE
+  ========================================
+*/
+
+	
+.area_3_of_3 {
+	width: 100%; 
+}
+
+.area_2_of_3 {
+	width: 66.13%; 
+}
+
+.area_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*
+  ========================================
+  GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_3_of_3 {
+		width: 100%; 
+	}
+	.area_2_of_3 {
+		width: 100%; 
+	}
+	.area_1_of_3 {
+		width: 100%;
+	}
+}
+
 /*
   ========================================
     SECTIONS
@@ -235,3 +306,5 @@ nav ul li a:hover {
 		margin: 1% 0 1% 0%;
 	}
 }
+
+
