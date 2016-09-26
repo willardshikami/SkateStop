@@ -114,3 +114,103 @@ nav ul li a:hover {
     font-family: 'Permanent Marker', cursive;
 }
 
+
+/*
+  ========================================
+  HISTORY
+  ========================================
+*/
+
+.history {
+    padding: 20px 0px 30px 30px
+}
+
+.history h1 {
+    font-family: 'Varela Round', cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/*
+  ========================================
+  GRID OF TWO
+  ========================================
+*/
+
+
+.area_2_of_2 {
+	width: 100%;
+}
+
+.area_1_of_2 {
+	width: 49.2%;
+}
+
+/*
+  ========================================
+  GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_2_of_2 {
+		width: 100%; 
+	}
+	.area_1_of_2 {
+		width: 100%; 
+	}
+}
+
+/*
+  ========================================
+    SECTIONS
+  ========================================
+*/
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*
+  ========================================
+  GROUPS
+  ========================================
+*/
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*
+  ========================================
+  GRID COLUMN SETUP
+  ========================================
+*/
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
