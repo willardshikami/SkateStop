@@ -72,10 +72,18 @@ body {
     float: left;
 }
 
+.header {
+    background-image: url(../images/nyjahlanding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
 .nav-bar {
+    background-color: rgba(217,217,217, 0.8);
     font-family: 'Varela Round';
     text-align: right;
-    padding: 20px 30px 20px 0px;
+    padding: 20px 30px 10px 0px;
 }
 
 nav ul li {
