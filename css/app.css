@@ -66,21 +66,22 @@ body {
 */
 
 .logo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     font-size: 50px;
+    font-weight: 600;
     padding: 10px 0px 20px 30px; 
     float: left;
 }
 
 .header {
-    background-image: url(../images/nyjahlanding.jpg);
+    background-image: url(../images/largelanding.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
 }
 
 .nav-bar {
-    background-color: rgba(217,217,217, 0.8);
+    background-color: rgba(217,217,217, 0.5);
     font-family: 'Varela Round';
     text-align: right;
     padding: 20px 30px 10px 0px;
@@ -92,10 +93,24 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #333;
+    color: #1a1a1a;
 }
 
 nav ul li a:hover {
-    color: #666;
+    color: #000;
+}
+
+.mid-header {
+    color: #d9d9d9;
+    font-size: 70px;
+    margin: 80px 30px;
+}
+
+.mid-header h2{
+    font-family: 'Montserrat';
+}
+
+.mid-header h3 {
+    font-family: 'Permanent Marker', cursive;
 }
 
